@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'NSURLConnection' do |ss|
-    ss.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
+    ss.dependency 'AFNetworking/NSURLConnection', '>= 2.0'
     ss.dependency 'ReactiveCocoa/Core', '~> 2.0'
     ss.source_files = 'RACAFNetworking/AFURLConnectionOperation+RACSupport.{h,m}', 'RACAFNetworking/AFHTTPRequestOperationManager+RACSupport.{h,m}'
   end
